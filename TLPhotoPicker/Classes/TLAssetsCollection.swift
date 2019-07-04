@@ -271,7 +271,7 @@ public struct TLPHAsset {
         }
     }
     
-    init(asset: PHAsset?) {
+    public init(asset: PHAsset?) {
         self.phAsset = asset
     }
 
